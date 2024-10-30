@@ -1,0 +1,77 @@
+tt {
+    padding: 1px 5px 1px;
+    margin: 0 1px;
+    background: #eaeaea;
+    background: rgba(0,0,0,.07);
+    font-size: 13px;
+    font-family: Consolas,Monaco,monospace;
+    unicode-bidi: embed;
+    color: crimson;
+}
+.about li {
+    list-style-type: square;
+    margin: 0px 0px 3px 35px;
+}    
+.postbox iframe {max-width:100%;}
+.imglitres {
+    border: 1px solid #ccc;
+    max-width:100%;
+    height:auto;
+}
+.buttoncopy {
+    border: 1px solid #ccc;
+    color: #595959;
+    background-color: #f7f7f7;
+    padding: 3px 8px 3px 8px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.buttoncopy:hover {
+    border-color: #b3b0b0;
+    color: #322f2f;
+    cursor:pointer;
+    background: #ebeaead1
+}
+.buttoncopy:disabled {
+    border: 1px solid #dedbdb;
+    color: #9f9b9bd1;
+    background-color: #f9f9f9;
+}
+#tooltip {
+    display:none;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 10px 4px 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+#tooltip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #000 transparent transparent;
+}
+#yadonate {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    background-color:#ffdb4d;
+    padding: 3px 26px 4px 25px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.1);
+    transition: background-color .1s ease-out 0s;
+}    
+#yadonate:hover {
+    background-color:#fc0;
+}  
+#yadonate:focus,#yadonate:active {
+    outline:none;
+    box-shadow: none;
+} 
